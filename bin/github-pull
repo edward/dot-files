@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby -w --disable-all
+
+branch_name = `~/bin/git-current-branch`
+if branch_name
+  url = "https://github.com/Shopify/shopify/compare/#{branch_name}?expand=1"
+  `open "#{url}"`
+else
+  abort "Could not fetch current git branch name"
+end
