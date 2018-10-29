@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Edward Ocampo-Gooding
+	email = edward@shopify.com
+[core]
+	editor = ~/bin/mate -w
+[alias]
+	co = checkout
+	ci = commit --verbose
+	st = status
+[push]
+	default = current
+[diff]
+	algorithm = patience

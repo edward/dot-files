@@ -1,6 +1,7 @@
 alias reload="source ~/.bash_profile"
 alias e="~/bin/mate"
 alias gs="git status"
+alias gc="git commit --verbose"
 alias gb="git branch"
 # alias gp="git log -p -S"
 alias gd="git diff"
